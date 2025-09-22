@@ -14,7 +14,7 @@ export default function Sessions() {
   const [title, setTitle] = useState(prefill ? `Learn ${prefill.skill}` : "");
   const [startTime, setStartTime] = useState("");
   const [duration, setDuration] = useState(60);
-  const [zoomLink, setZoomLink] = useState(""); // ✅ new state
+  const [zoomLink, setZoomLink] = useState("");
   const [sessions, setSessions] = useState([]);
 
   useEffect(() => {
@@ -41,13 +41,13 @@ export default function Sessions() {
       durationMinutes: Number(duration),
       mode: "online",
       status: "scheduled",
-      zoomLink, // ✅ save zoom link
+      zoomLink: zoomLink || "", // ✅ always include key
       createdAt: Date.now(),
     });
     setTitle("");
     setStartTime("");
     setDuration(60);
-    setZoomLink(""); // reset
+    setZoomLink("");
   };
 
   const mySessions = sessions.filter((s) => s.host === user.uid);
@@ -183,8 +183,9 @@ export default function Sessions() {
                     {s.durationMinutes} min
                   </div>
                 </div>
-                {/* ✅ Join button opens Zoom link */}
-                {s.zoomLink ? (
+
+                {/* ✅ Join button for Zoom */}
+                {s.zoomLink && s.zoomLink.trim() !== "" ? (
                   <a
                     href={s.zoomLink}
                     target="_blank"
