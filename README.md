@@ -3,7 +3,7 @@
 SkillSwap is an interactive web platform that connects learners and experts to exchange knowledge and skills.
 Users can create profiles, share tech-related posts, and host or join live learning sessions — building a community-driven ecosystem for collaborative learning.
 
-🌐 Live Demo: SkillSwap App
+🌐 Live Demo: https://skillimprove.netlify.app/login
 
 🚀 Overview
 
