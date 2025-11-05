@@ -1,59 +1,117 @@
-💡 SkillSwap
+# 💡 SkillSwap
 
-SkillSwap is an interactive web platform that connects learners and experts to exchange knowledge and skills.
+SkillSwap is an interactive web platform that connects learners and experts to exchange knowledge and skills.  
 Users can create profiles, share tech-related posts, and host or join live learning sessions — building a community-driven ecosystem for collaborative learning.
 
-🌐 Live Demo: https://skillimprove.netlify.app/login
+---
 
-🚀 Overview
+## 🌐 Live Demo
 
-SkillSwap empowers people to learn, teach, and grow together.
-The platform bridges the gap between those who want to upskill and those willing to share their expertise, fostering a culture of knowledge exchange.
+Frontend: [https://skillimprove.netlify.app/login](https://skillimprove.netlify.app/login)
 
-✨ Key Features
+🎥 **Video Walkthrough:** [Watch on YouTube](https://youtu.be/5OaS5PlYncw?si=sIzStgkD6BWW5Sw6)
 
-🧑‍🏫 Host or Join Sessions: Learn or teach through interactive, topic-based sessions.
+---
+🚢 Deployment
 
-🧩 User Profiles: Create and customize profiles showcasing your skills and interests.
+Frontend is live on Netlify: https://skillimprove.netlify.app/login
 
-📰 Tech Posts & Updates: Share posts, insights, or learning resources with the community.
+Backend deployed on Render / Vercel
 
-📊 Integrated Dashboard: Manage sessions, track learning progress, and explore new skills.
+---
 
-🔍 Skill Discovery: Find experts or learners based on technologies or topics of interest.
+## 🌟 Features
 
-🌐 Responsive Design: Fully optimized for all devices for a smooth experience.
+- 🧑‍🏫 **Host or Join Sessions** – Learn or teach through interactive, topic-based sessions.  
+- 🧩 **User Profiles** – Create and customize profiles showcasing your skills and interests.  
+- 📰 **Tech Posts & Updates** – Share posts, insights, or learning resources with the community.  
+- 📊 **Integrated Dashboard** – Manage sessions, track learning progress, and explore new skills.  
+- 🔍 **Skill Discovery** – Find experts or learners based on technologies or topics of interest.  
+- 🌐 **Responsive Design** – Fully optimized for all devices for a smooth experience.
 
-🛠️ Tech Stack
-Category	Technologies Used
-Frontend	React.js, HTML5, CSS3, JavaScript (ES6+)
-Backend	Node.js, Express.js
-Database	MongoDB
-Tools & Libraries	Axios, React Router, JWT Authentication, RESTful APIs
-Deployment	Netlify (Frontend), Render / Vercel (Backend)
-📦 Installation & Setup
+---
 
-Clone the repository
+## 🛠️ Tech Stack
 
-git clone https://github.com/yourusername/SkillSwap.git
+### **Frontend**
+- React.js  
+- HTML5  
+- CSS3  
+- JavaScript (ES6+)  
 
+### **Backend**
+- Node.js  
+- Express.js  
 
-Navigate to the project directory
+### **Database**
+- MongoDB  
 
-cd SkillSwap
+### **Tools & Libraries**
+- Axios  
+- React Router  
+- JWT Authentication  
+- RESTful APIs  
 
+### **Deployment**
+- Netlify (Frontend)  
+- Render / Vercel (Backend)
 
-Install dependencies
+---
 
+## 📋 Prerequisites
+
+Before running this project, ensure you have the following installed:
+- Node.js and npm  
+- Git  
+- Web browser (Chrome, Firefox, etc.)  
+- Code editor (VS Code recommended)
+
+---
+
+## 🚀 Getting Started
+
+### **Clone the Repository**
+```bash
+git clone https://github.com/Abhinav07072001/SkillSwap.git
+Navigate to the Project Directory
+cd skill-swap-frontend
+
+Install Dependencies
 npm install
 
-
-Run the development server
-
+Run the Development Server
 npm start
 
 
-Visit the app at: http://localhost:3000
+Now visit the app at 👉 http://localhost:3000
+
+📁 Project Structure
+skill-swap-frontend/
+│
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   └── ...
+│
+├── src/
+│   ├── assets/               # Images, icons, and static assets
+│   ├── components/           # Reusable UI components
+│   ├── pages/                # Main page components (Login, Profile, Sessions, etc.)
+│   ├── services/             # API service files (Axios setup, API calls)
+│   ├── context/              # Context providers (Auth, User, etc.)
+│   ├── App.js                # Main application entry
+│   ├── index.js              # Root rendering file
+│   └── styles/               # Global CSS or Tailwind styles
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.cjs
+├── tailwind.config.cjs
+├── vite.config.js
+└── README.md
 
 🧠 Learnings
 
@@ -69,26 +127,14 @@ Structuring scalable and maintainable codebases
 
 Deploying production-ready applications
 
-📈 Future Enhancements
-
-🔒 Role-based access and advanced authentication
-
-💬 Real-time chat for learners and mentors
-
-📅 Session booking calendar and reminders
-
-⭐ Rating and feedback system for hosts and participants
-
-🧠 AI-based skill recommendations
-
 🧑‍💻 About Me
 
 Hi! I’m Abhinav Dixit, a passionate Full Stack Developer who enjoys building meaningful and user-centric applications.
 I’m focused on creating impactful web solutions that enhance learning and collaboration in the tech community.
 
-📫 Connect with me:
-Linkedin : https://www.linkedin.com/in/abhinavdixit771/
-github : https://github.com/Abhinav07072001
+🌐 Portfolio: Coming Soon
 
-Hashtags:
-#SkillSwap #MERNStack #FullStackDevelopment #ReactJS #NodeJS #MongoDB #WebApp #EdTech #LearningPlatform #Collaboration #Innovation #CommunityDriven
+💼 LinkedIn: https://www.linkedin.com/in/abhinavdixit771/
+
+💻 GitHub: https://github.com/Abhinav07072001
+
