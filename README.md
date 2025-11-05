@@ -79,23 +79,24 @@ npm start
 
 Now visit the app at 👉 http://localhost:3000
 
-📁 Project Structure
+## 📁 Project Structure
+
 skill-swap-frontend/
 │
 ├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   └── ...
+│ ├── favicon.ico
+│ ├── index.html
+│ └── ...
 │
 ├── src/
-│   ├── assets/               # Images, icons, and static assets
-│   ├── components/           # Reusable UI components
-│   ├── pages/                # Main page components (Login, Profile, Sessions, etc.)
-│   ├── services/             # API service files (Axios setup, API calls)
-│   ├── context/              # Context providers (Auth, User, etc.)
-│   ├── App.js                # Main application entry
-│   ├── index.js              # Root rendering file
-│   └── styles/               # Global CSS or Tailwind styles
+│ ├── assets/ # Images, icons, and static assets
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Main page components (Login, Profile, Sessions, etc.)
+│ ├── services/ # API service files (Axios setup, API calls)
+│ ├── context/ # Context providers (Auth, User, etc.)
+│ ├── App.js # Main application entry
+│ ├── index.js # Root rendering file
+│ └── styles/ # Global CSS or Tailwind styles
 │
 ├── .gitignore
 ├── eslint.config.js
@@ -107,6 +108,8 @@ skill-swap-frontend/
 ├── vite.config.js
 └── README.md
 
+
+---
 🧠 Learnings
 
 Through SkillSwap, I strengthened my skills in:
@@ -127,7 +130,7 @@ Deploying production-ready applications
 Hi! I’m Abhinav Dixit, a passionate Full Stack Developer who enjoys building meaningful and user-centric applications.
 I’m focused on creating impactful web solutions that enhance learning and collaboration in the tech community.
 
-🌐 Portfolio: Coming Soon
+
 
 💼 LinkedIn: https://www.linkedin.com/in/abhinavdixit771/
 
