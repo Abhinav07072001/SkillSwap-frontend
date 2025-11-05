@@ -70,12 +70,6 @@ Before running this project, ensure you have the following installed:
 
 ## 🚀 Getting Started
 
-### **Clone the Repository**
-```bash
-git clone https://github.com/Abhinav07072001/SkillSwap.git
-Navigate to the Project Directory
-cd skill-swap-frontend
-
 Install Dependencies
 npm install
 
@@ -127,6 +121,7 @@ Structuring scalable and maintainable codebases
 
 Deploying production-ready applications
 
+
 🧑‍💻 About Me
 
 Hi! I’m Abhinav Dixit, a passionate Full Stack Developer who enjoys building meaningful and user-centric applications.
@@ -137,4 +132,3 @@ I’m focused on creating impactful web solutions that enhance learning and coll
 💼 LinkedIn: https://www.linkedin.com/in/abhinavdixit771/
 
 💻 GitHub: https://github.com/Abhinav07072001
-
